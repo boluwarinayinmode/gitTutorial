@@ -10,9 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let message = "Hi, This is my First Commit..."
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        print(message)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
